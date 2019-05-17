@@ -1,0 +1,170 @@
+ latest 24 sprint work related
+ 
+ Total 18 task are assigned and 4 issue done, 10 in progess , 4 to do
+
+1.Display prepaid plans:(DIR-5053)
+
+conditions to satisfy :
+a.The customer has not changed from Postpaid to Prepaid plan in the last 6 months
+b.Existing Customer with Postpaid Plans
+c.Postpaid to Prepaid is available for Bluecubes only
+d.Prepaid Plan to be shown using the XPAX brand color (Red Violet)
+e.Users are able to view the Prepaid plan available
+f.Users are able to select on a Prepaid plan
+g.Users are able to filter options by Prepaid Plan
+
+
+
+2. Display & Select Retention Plans (DIR-4618)
+
+conditions to satisfy : 
+
+a.Existing Celcom Postpaid Subscriber with LOS at least 6 months
+b.Active Customers only
+c.No Active Contract
+d.No Call Bar within the last 6 months
+e.Applicable for Bluecubes and Certain Dealers only (List Attached)
+f.Users are able to view the retention plans if available
+g.Users are able to select on a retention plan
+
+
+
+3.PIN Via MFP in Pulse App: (DIR-5313)
+
+conditions to satisfy :
+a. Dealer user is prompted in case the user login from new device
+b.Dealer user should be directly logged into Pulse, in case he/she login from a registered device
+c. Dealer user cannot login through an invalid PIN
+d. Dealer user cannot login through an expired PIN
+e. Once Dealer user requests for a PIN, the PIN should be available from the Supervisor's 2FA page
+
+
+
+4.Manager View for PIN Via MFP (DIR-5314)
+
+conditions to satisfy :
+a.Dealer supervisor is able to see the PIN requested by his subordinates
+b.Invalid PINs should not be shown to the supervisor
+c.New PINs to be refreshed and shown in the 2FA menu item - to follow FIFO
+d.Once Dealer user requests for a PIN, the PIN should be available from the Supervisor's 2FA page
+
+
+
+
+5.  PIN Entry by User (DIR-5315)
+
+conditions to satisfy :
+a. Dealer supervisor is able to login to Pulse
+b. Invalid PINs should not be accepted by Pulse
+c. Regenerated PINs to be available in the Supervisors pulse app
+d. Pulse to take the user back to login page, in case the user enter's incorrect PIN consecutively 3 times
+
+
+
+6.Resubmit Option for failed orders in Track Transaction (DIR-5593)
+
+conditions to satisfy :
+a.Applicable for Blue-cubes and Dealers
+b.Applicable for Rejected Orders for MNP only
+c.User will be able to resubmit the order once the MNP Status is "Rejected"
+d.User will not be shown the MNP Resubmission button in case the port in the request was made more than 30 days back.
+e.User will be able to see the successful page in case the MNP order is resubmitted correctly
+
+
+7.Postpaid Auto Billing (DIR-5767)
+
+conditions to satisfy :
+a.If auto-billing is turned on, PG to be triggered to allow customer to input credit card details
+b.Should be prompted for both BC and Dealer 
+
+
+
+8. COBP Auto Billing (DIR-5768)
+
+conditions to satisfy :
+a.If auto-billing is turned on, PG to be triggered to allow customer to input credit card details
+b.Should be prompted for both BC and Dealer 
+c.Dealer user can only add and modify , they do not have delete permission .
+
+
+
+9.Enabling Pulse for Agent Express Dealers(DIR-5840)
+
+conditions to satisfy :
+a.Only applicable for dealers under the Agent-Express scheme
+b.Dealers have been on-boarded in PRM
+c.Applicable for only Prepaid, Postpaid and Reload Journeys
+d.Based on the PRM configuration, Agent express dealers would be able to see the different products
+e. Based on the PRM configuration, Agent express dealers would be able to sell the Sell XPAX Prepaid Product & Reload , Sell XPAX - XP 50 naked postpaid and XPAX Prepaid and Reload
+
+
+
+10.Product Simplification Phase 2 (DIR-5864)
+
+Modification in developement
+
+
+11.COBP DB RET - Contract Extension (DIR-5878)
+
+conditions to satisfy :
+a.Existing Celcom COBP DB - RET PLAN customer
+b.Active Customers only
+c.Balance current contract = 12 months
+d.Applicable for Selected Plans 
+e.Lateral Move or Upgrade Plan
+f.Users are able to take a second device, if eligible
+
+
+
+
+12.COBP DB RET - Contract Carry Forward (Change Plan Anytime)(DIR-5879)
+
+conditions to satisfy :
+a.Existing Celcom COBP DB - RET PLAN customer
+b. Customers with Active RET Device Bundle Contract
+c.Applicable for Selected Plans - upgrade plan only
+d.EasyPhone and New Phone program is not allowed for Contract Carry Forward
+e. Users are able to view the eligible upgrade retention plans
+
+
+
+13.Configure new XPax starter pack (DIR-5883)
+
+conditions to satisfy :
+a.This is applicable for Prepaid, MNP Prepaid, Pre-Post, Sim Change ,Reload , VAS ,Any other applicable journeys
+
+
+
+
+14.CE Auto Billing - EasyPhone not allowed to delete (DIR-5948)
+
+conditions to satisfy :
+a.In CE Journey if user has prior auto-billing set up , we need to check is user on EasyPhone Contract .
+b.If yes , we should disallow user from deleting Auto-Billing setup . Should prompt error message.
+c.Can modify , if has no previous AB set up but on EP contract can add AB .
+
+
+15.Handle payment flow when upfront payment is zero ( DIR -5999)
+
+conditions to satisfy :
+
+
+
+16.Unit testing implementation in Pulse(DIR-6065)
+jasmin and karma tools
+
+17.Integrate BlinkID version 4.8.0 in Pulse (DIR-6103)
+Regarding develeopment changes
+
+
+18.COBP DB Auto Billing (DIR-5769)
+
+conditions to satisfy :
+a.If auto-billing is turned on, PG to be triggered to allow customer to input credit card details
+b.Should be prompted for both BC and Dealer
+c.Dealer user can only add and modify , they do not have delete permission .
+
+
+
+Doubts: 
+DIR-5767, DIR-5768 ,DIR 5769 ,DIR-5883 , DIR -5999

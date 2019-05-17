@@ -1,0 +1,89 @@
+
+
+	001_In Pre-paid Registration
+
+1.What is p_numbers in pre-paid registrations
+2.What is T_numbers in pre-paid registrations
+3.Where is p_20_ocr connected?
+4.What is service expansion in grid list 
+5.What is insert sdk error message
+6.How the user knows that he crossed the maximum registrations 
+
+
+	002_In Post-paid Registration
+
+1.How the user is blacklisted and at what time this message is displayed?
+2.If the user comapare more than 4 plans and how to display the plans?
+
+
+ 	003_In Postpaid Plan Mobile
+1.What is the use of recurring payment in p_37, while entering the address details
+Observed:The difference between view  Post_paid plans and post paid registration is same but in post-paid plans, first the plans are selected and registration process is same after
+
+	004_In Postpaid Number Mobile
+Observed:In number search, the number are selected and then registration process continues same like before
+
+	005_In Value Reloaded Mobile
+1.What is the use of P-018 Pop message and when it appears? 
+2.What is call to action and what happen when user tap on it?
+
+
+	006_In Vas Mobile
+1.What is the purpose of scan id with p_20 in manage add on page?
+2.What is authorisation letter(Third party ID) and what is it's purpose?
+
+
+	007_In MNP prepaid 
+1.Once the number is ready to port then pop message with number is valid okay but why re-try button and what is purpose of it?
+2.In MNP prepaid process after mnp then the default plans are activated? (Here there is no selection of prepaid plan but some plan is getting activated)
+
+	008_In MNP Post-paid
+
+No 
+
+	009_In Sim Rerplacement
+Observed:If user not satify with the number then number replacement is available in sim replacement
+
+	010_Account Enqiuery
+Observed: The user can edit the information and chance of change the current plan
+
+	012_IN COBP Mobile
+1.What is the user of customer id? (Intially he will submit the document)
+
+	013_Mobile Payment
+Observed: Here the due payments will be shown
+
+	014_Device Bundle
+Observed: The user can purchase the mobile and at the same time user can activate the plan for connection
+
+	016_Tracking Details
+1.What is the management details
+observed: Tracking the details of oreders and plans
+
+	017_NPS Score
+1.What is nps score?
+Observed:Main purpose to show the graphical represenetaion
+
+
+	018_Supplementary Mobile
+1.What is the purpose of supplementary ?
+Observed: User can select the new number or chance of mnp 
+
+	019_Login
+1.What is threshold?
+
+	020_Dealer Profile
+1.Is this flow correct?
+
+	021_Threshold mobile
+1.Is this flow correct?
+ 
+
+
+
+
+
+
+
+
+

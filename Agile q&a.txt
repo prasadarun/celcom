@@ -1,0 +1,230 @@
+ 
+
+1.Types of meetings in scrum
+a.Backlog groomimg -- what all the backlogs are in pending will move to next sprint 
+b.Sprint plannings -- In the comming sprint what are all the plans etc are discussed
+c.Retrospective call -- we discuss about how the sprint occur, what are the difficulty we faced, any clarifications regarding challanges
+d.Sprint Review - We show the demo to client regarding what we have done in current sprint
+e.daily scrum - To acheive golas what they are going to do? they should give explanation
+
+
+
+2.Who are present in agile model
+1.Developers - to develop the code
+2.Testers   - to test the application
+3.Business Analysist  - collect the informatiom from client and he will create the stories
+4.Scrummaster - the person who look after all the work and conduct all the meetings
+5.Product owner - he is the reponsible for project.He prioritise the product backlogs according to the market staragety
+
+
+
+3.what is bug life cycle
+a.Tester raise the defect
+b.developer will fix the defect
+c.Tester will retest the defect
+d.If defect is still present then tester close the defect or he will close the defect
+
+4.What is zero sprint
+It means setting up the environemt for project and preparing for backlogs etc are done
+
+5.sdlc - software dev life cycle 
+
+models
+1.Agile - min priority given to document
+2.Water fall - sequencial model (Planing, develop, testing, deploy) and it is traditionally follow document
+3.incremental
+
+
+6.What are story points
+In order to complete the work the story point are given and it representaion changes from company to company
+
+7.What is agile board 
+The agile board is to control the story ppints and we can get amount of work done etc
+
+8.Types of testing
+a.Functional testing
+1.unit tesing
+2.smoke testing
+3.Sanity testing
+4.interegration testing
+5.UAT testing
+6.Regression testing
+
+b.Non functional testing
+1.Performance testing
+2.Load testing
+3.Monkeytesting
+4.Stress Testing
+5.Battery performance
+6.etc.....
+
+
+9.what are included in testcase doct
+a.story id
+b.Testcase id
+c.summary
+d.Actual result
+e.Expected Result
+f.Bug priority
+
+10.what is smoke testing
+When the tester receive the 1st build from team, then he verify the flows is correct or not and application is stable or not
+
+11.what is sanity testing
+Sanity tesing is done during release of each sprint. During this tester will not deeply check the functionality
+ex:In a e-comerce site when developers develop code for new functionality like(search bar) then in sanity the search functionality is tested on whole sprint
+
+12.Difference between sanity and regression
+when more time is available then tester work on regression but if less time is available then sanity is performed.To reduce the product cost mostly sanity takes place and for regeression it takes more cost
+
+13.what are the fields in bug report
+a.defect id
+b.Defect description and steps to reproduce
+c.Severity of defect
+d.To whom the defect is assigned
+e.screen shots of bug
+
+14.what if any document are not present for testing
+Tester mainly depend on the screen shots, wireframe works and previous version of application
+
+15.How to get max productivity from testing
+a.Involving everyone in test script peer reviews, defect meetings, and KT sessions is going to ensure that everyone is aware of the application to the best extent possible and encourage the team work with collabration
+
+16.Roles and responsibility of tester
+a.On shore person is the point of contact for offshore and client
+b.getting kt regarding project 
+c.getting  all environment to test the application
+d.sanity and smoke testing
+e.Testing key functionality and review of bug
+f.Maintaining updated proper doct regarding project
+
+17.What mainly included in mobile testing
+a.Test the application is able to run in different platforms 
+b.Installations, uninstalling, launching the app with network and without a network, testing functionality
+c.Observing the screens for different mobile
+d.Network connections –WiFi, 2G, etc.
+
+18.if you have reported a bug and developer says he cannot reproduce it. what would you do?
+If developer cannot replicate it then, you need to provide him the exact details of the scenarios that you are trying which is causing the defect, like screenshots, error log details, system logs, test data, environment, or a video recording will also help. Still developer doesn’t replicate it then you probably need to take it to manager for further discussion and decision making in the defect call.
+
+19.If you have 2 hours to execute 30 test cases how would you do it.
+when we have less time but need to complete testing first thing we need to prioritize what test cases are critical and then we can use boundary value analysis and then execute them to finish it soon
+
+20.What is boundary value analysis
+1.It mainly focous on errors 
+example: if password length should be equal to six the according to BVA(boundary value analysis) the test cases will be three .
+a.Check with 5 characters like ABCDE
+b.Check with 6 characters like ABCDEF
+c.Check with 7 characters like ABCDEFG
+
+Note :This applies for numbers also
+
+21.What is test cases and test scenario
+A Test Case is a set of actions executed to verify a particular feature or functionality of your software application
+It is a collective set of test cases which helps the testing team to determine the positive and negative characteristics of the project.
+Test scenario will tell what to test and test cases will tell whether the functionality is working or not 
+
+22.What is test plan
+The test plan is as I like to call a ‘super document’ that lists everything there is to know and need. 
+The test plan is a document that lists all the activities in a QA project, schedules them, defines the scope of the project, roles & responsibilities, risks, entry & exit criteria, test objective and anything else that you can think of
+Ex: The test plan defines at what the test should be run and any risks etc completely 
+
+Features of test plan: 
+1.It includes Features to be tested
+2.It includes what features are not be tested
+3.Test deliverables
+4.Roles and reponsibility assigned to whom
+5.Approvals
+
+
+23.Duration of sprint ?
+It is mostly less than 4 weeks
+
+24.What is the duration of sprint planing?
+For every week 2 hrs is consisderd and if sprint is for 4 weeks then sprint planning is for 8hrs duration will consisderd 
+
+25.Sprint review?
+In sprint review , the goal of sprint (ex:Login functionlaity) is showed demo to client. If he satisfy then it is accepted,other wise is rejected
+
+26.Duration of sprint review?
+For every week 1hrs is consisderd and if sprint is for 4 weeks then 4 hrs is duration
+
+27.Duration of retrosprictive call?
+For every week 45min is consisderd, if it is for 4 weeks then 3hrs
+
+28.How do write positive and negative test cases?
+From stories available i will start test cases and based on business requirement i will write negative test cases from background 
+
+29.What is product backlog and sprint backlog?
+The product backlog is maintained by PO and it contains all the every feature and requirement for over all requiremnt
+where as sprint backlog is sub-set of product backlog and maintained for every sprint 
+
+30.What is velocity?
+It is the mertic to calculate the work progress and it determine how much time required to complete and how much amount of work to be completed
+
+31.Examples of black box and white box testing?
+Black box Testing: In a car if we pour disel it should be move (Applying input and getting output)
+White box Testing: If a car fails to move then like a mechanic we need to examine the engine
+
+32.What is the difference between bug and defect ?
+A bug is the result of a coding error
+A defect is a deviation from the requirements
+
+33.What to do when defect is found in production but not during the QA phase? or what is defect lekage? 
+We need to raise the defect in next sprint
+
+34.What qualities should a good Agile tester have?
+Agile tester should be able to understand the requirements quickly.
+Agile tester should know Agile concepts and principals.
+As requirements keep changing, he should understand the risk involve in it.
+Agile tester should be able to prioritize the work based on the requirements.
+
+35.What do you understand by Requirement Traceability Matrix?
+In this we will keep track with new functionalities, how many test cases added, what should be execute, what are pending everything needs to tracked.
+
+36.What are conflicts you had with boss?
+I maintained a good relation with every one till now i worked with them
+
+37.What is agile?
+Agile is a sofware development approach in which they gather the information require the requiremnts and develop solution according to the requiremnt inorder to satisfy the end user
+
+38.What is scrum?
+Scrum is the agile framework used to manage the work
+
+
+40.What motivates you?
+I am motivated by meeting set targets within deadlines, as it gives me a sense of accomplishment and it's something that I can look back on and say "I achieved that"
+
+41.Give me an example of when you showed initiative?
+In my last project i am having suddenly the blocking issue the i found the total team is facing the same api issue then i took the intiation to solve the problem
+
+42.Strength & weakness
+Strength:
+Workholic 
+teamwork
+adapt to situation
+
+Weakness:
+giving tough time for developers
+
+
+43What are your Hobbies?
+Playing volley ball
+listening to music
+watching movies
+
+
+
+39.About celcom
+31 years industry experience
+14 Million people base customers
+Providing services for pre-paid, post -paid, devices with plans, sim switchings, providing broad band, providing games 
+Not only tele communication, along with it providing IOT solutions, Multi media services
+43.
+
+40.salva shariff - client
+
+
+
+
+

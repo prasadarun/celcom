@@ -1,0 +1,24 @@
+
+			    9th-april
+
+1.Pre-paid registrations
+
+a.Unable to check with the pre-paid sim serial numbers because i am not having data shhet 
+b.how to check the mykad bio-metric in pre-paid registration
+c.Is there any time limit for scanid ?
+
+
+2.Post-paid Registrations
+
+d.In flowchart the pop message is available for scanid.but it not showing in post-paid registration
+e.In post paid test data sheet what are the material code,imsi,simstatus,uim sim status,hrl,store id
+
+
+3. View Plans
+f.
+
+4.Number search
+
+
+5.Device Bundle
+

@@ -1,0 +1,12 @@
+
+
+      Tickets raised for celcom
+
+
+1.ticket raised for network issue ------------------------- INCIN0009894625
+2.Ticket raised for usb access ---------------------------- INCIN0009926072 
+3.Ticket raised for surrender of desktop ------------------ INCIN0009948198
+4.Ticket raised for allocation of desktop in gigaplex------ INCIN0009984638
+5.Ticket raised for mobile pass --------------------------- REQIN0012277414
+6.Ticket raised for xs4mobile wifi access ------------------REQIN0012277904
+7.Ticket raised for admin rights ---------------------------REQIN0012289664
